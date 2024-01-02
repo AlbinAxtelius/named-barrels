@@ -18,7 +18,7 @@ export function activate(context: vscode.ExtensionContext) {
   // The commandId parameter must match the command field in package.json
 
   const disposable = vscode.commands.registerCommand(
-    "extension.tunna",
+    "extension.barrel",
     async (folder) => {
       const folderData = await readdir(folder.fsPath);
 
