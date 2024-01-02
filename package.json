@@ -2,6 +2,9 @@
   "name": "tunna",
   "version": "1.0.0",
   "license": "MIT",
+  "repository": {
+    "url": "https://github.com/AlbinAxtelius/named-barrels"
+  },
   "scripts": {
     "compile": "tsc -p ./",
     "lint": "eslint \"src/**/*.ts\"",
